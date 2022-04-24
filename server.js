@@ -95,7 +95,7 @@ app.post("/skills", async (res, req) => {
                                 },
                                 {
                                     "type": "MiniApp",
-                                    "url": "https://vk.com/app7543093",
+                                    "url": "https://vk.com/app7923597",
                                 } 
                             ],
                             end_session:true
@@ -107,7 +107,7 @@ app.post("/skills", async (res, req) => {
             }
         }
    
-    req.send(getResponse("Я ещё на знаю такой команды.", session));
+    req.send(getResponse("Я ещё не знаю такой команды.", session));
 });
 
 
